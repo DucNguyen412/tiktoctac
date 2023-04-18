@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>  
+    <div class="container">
+        <table id="mytable">
+            <tbody>
+                <tr>
+                    <td>STT</td>
+                    <td>Tên VXL</td>
+                    <td>Hãng sx</td>
+                    <td>Ngày ra mắt</td>
+                    <td>Giá (vnđ)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form action="">
+            <div class="form_vxl form_dancach">
+                <label for="">Tên VXL</label>
+                <input type="text" id="tenvxl">
+            </div>
+
+            <div class="form_hang form_dancach">
+                <label for="">Hãng</label>
+                <input type="text" id="hang">
+            </div>
+
+            <div class="form_ngayramat form_dancach">
+                <label for="">Ngày ra mắt</label>
+                <input type="date" id="ngayramat">
+            </div>
+
+            <div class="form_gia form_dancach">
+                <label for="">Giá</label>
+                <input type="number" id="giatien">
+            </div>
+
+            <div align="right" class="btn">
+                <input type="button" class="btn1" value="Thêm" id="btn_them" onclick="them()">
+                <input type="button" class="btn1" value="Hủy" id="btn_huy" onclick="huy()">
+            </div>
+        </form>
+        <script src = "./main.js"></script>
+    </div> 
+</body>
+</html>

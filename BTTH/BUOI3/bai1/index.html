@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>  
+    <div class="container">
+        <table>
+            <tbody>
+                <tr>
+                    <td><p>Chuỗi</p></td>
+                    <td><input type="text" id="chuoi"></td>
+                </tr>
+                <tr>
+                    <td><p>Danh sách</p></td>
+                    <td><select name="select" id="select" onchange="selectChange()"></select></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+        <div align="right" class="btn">
+            <input type="button" id="btn_thuchien" value="Thực hiện" onclick="tachchuoi()">
+            <input type="button" id="btn_huy" value="Hủy" onclick="huy()">
+        </div>
+        <script src = "./main.js"></script>
+    </div>
+</body>
+</html>

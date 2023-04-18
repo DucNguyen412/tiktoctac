@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .navtong {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+        text-align: center;
+    }
+}

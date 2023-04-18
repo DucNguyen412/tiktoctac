@@ -1,0 +1,30 @@
+.container{
+    border: 1px solid black;
+    width: 350px;
+}
+
+.nhapds{
+    display: none;
+}
+
+select{
+    width: 100px;
+}
+
+.btn{
+    margin: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.btn1{
+    margin: 0 5px;
+    background-color: white;
+    padding: 5px;
+}
+
+
+.btn_luu{
+    display: none;
+}

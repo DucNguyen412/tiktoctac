@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+background-color: rgb(29, 17, 109);    
+padding: 15px;
+}
+
+h1{
+    color: aliceblue;
+}
+
+.menu {
+    padding: 15px;
+    background-color: rgb(55, 127, 235);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    padding: 15px ;
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    background-color: rgb(38, 61, 187);
+}
+
+.Content {
+    display: flex;
+}
+
+.images{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Maincontent {
+    width: 70%;
+}
+
+footer {
+    height: 40px;
+    background-color: rgb(29, 17, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    color: #eaeaea;
+}

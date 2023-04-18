@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(27, 27, 139);
+}
+
+h1{
+    color: aliceblue;
+    padding: 15px;
+}
+
+
+.navtong {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(34, 39, 180);
+    padding: 5px 0;
+}
+
+.navtong li {
+    color: aliceblue;
+}
+
+.navtong li:hover .navphu li{
+    display: block;
+}
+
+.navphu {
+    list-style: none;
+}
+
+.navphu li {
+    display: none;
+    background-color: #fff;
+    color: black;
+}
+
+
+img{
+    width: 250px;
+}
+.tonghopsach {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sach {
+    margin: 5px;
+}
